@@ -298,7 +298,7 @@ public class Main {
 ```
 
  ```go
-  Variables In Java:
+  /* Variables In Java:
      ✅ Variables are containers which store data values
 	- String,
 	 - int,
@@ -308,24 +308,24 @@ public class Main {
      
      ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
-      
+  */    
 ```
 ```java
      String name = "Akashdip";
      String channel = "AkashAOT";
 ```
 ```go
-//     System.out.println(name); ---------------------------> print the name --> Akashdip
-//     System.out.println(name.length()); ------------------> length --> 7
-//     System.out.println(name.toUpperCase()); -------------> AKASHDIP
-//     System.out.println(name.toLowerCase()); -------------> akashdip
+     System.out.println(name); //---------------------------> print the name --> Akashdip
+     System.out.println(name.length()); //------------------> length --> 7
+     System.out.println(name.toUpperCase()); //-------------> AKASHDIP
+     System.out.println(name.toLowerCase()); //-------------> akashdip
 
-// //  🌐 String Concatenation (name + "000" + channel) ➡️ Akashdip 000 AkashAOT
-// //  🌐 Escape Sequence Characters \" \\ \t \n
-//     System.out.println(name + " from\" " + channel); ----> Akashdip from"
-//     System.out.println(name + " from\\ " + channel); ----> Akashdip from\
-//     System.out.println(name + " from\t " + channel); ----> Akashdip from	AkashAOT
-//     System.out.println(name + " from\n " + channel); ----> Akashdip from"
+ //  🌐 String Concatenation (name + "000" + channel) ➡️ Akashdip 000 AkashAOT
+ //  🌐 Escape Sequence Characters \" \\ \t \n
+     System.out.println(name + " from\" " + channel); //----> Akashdip from"
+     System.out.println(name + " from\\ " + channel); //----> Akashdip from\
+     System.out.println(name + " from\t " + channel); //----> Akashdip from	AkashAOT
+     System.out.println(name + " from\n " + channel); //----> Akashdip from"
 //										AkashAOT
 
 // // ✅ JAVA STRING METHODS:
