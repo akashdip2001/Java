@@ -331,9 +331,9 @@ public class Main {
 //        System.out.println(name.indexOf("dip")); ---> index no?=>starting from 5
 
 
-// // ✅ MATA CLASS in JAVA
+// // ✅ MATH CLASS in JAVA
         int numb1 = 4, numb2 = 7;
-//        System.out.println(Math.max(numb1, numb2));
+//        System.out.println(Math.max(numb1, numb2)); //no need to import Math, because it's inbuilt Class in JDK
 //        System.out.println(Math.min(numb1, numb2));
 //        System.out.println(Math.sqrt(36));
 //        System.out.println(Math.abs(-36));
