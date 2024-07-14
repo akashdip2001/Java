@@ -284,7 +284,7 @@ import java.util.Scanner;
 // The file `(Main.class) name is same as this class name main
 public class Main {
 
-    static int sum(int a, int b){  // ❓
+    static int sum(int a, int b){  // ❓(at the bottom - method calling)
         return a+b;
     }
 
