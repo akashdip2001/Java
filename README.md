@@ -341,19 +341,26 @@ public class Main {
 //     System.out.println(b);
 //     System.out.println(isAdult);
 
-    /* Rules for constructing name of variables in Java
+
+/* 🐼 Rules for constructing name of variables in Java
         1. Can contain digits, underscores, dollar signs, letters
         2. Should begin with a letter, $ or _
         3. Java is case sensitive language which means that
            harry and Harry are two different variables altogether.
         4. Should not contain whitespaces
         5. You cannot use reserved keywords from Java
-     */
+ */
     /*
     Two types of Java Data Types:
-        1. Primitive - byte (1 byte), short (2 bytes), int(4 bytes), long (8 bytes), float(4 bytes),
-           double (8 bytes), boolean(1 bit), char (2 bytes).
-        2. Non Primitive or Reference Data Type -
+        🦖 1. Primitive - byte --------------------- (1 byte),
+			  - short ------------------- (2 bytes),
+			    - int   ----------------- (4 bytes),
+			      - long   -------------- (8 bytes),
+				 - float  ----------- (4 bytes),
+				    - double ---------(8 bytes),
+					- boolean-----(1 bit),
+					  - char v ---(2 bytes).
+	🦖 2. Non Primitive or Reference Data Type -
     */
     byte u = -56;
     double d = 45.635435345d;
