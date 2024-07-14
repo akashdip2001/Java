@@ -275,7 +275,7 @@ Convert the whole array into one huge string.
 This will search for [object] in [array].
 ```
 
-# Code [file](https://github.com/akashdip2001/Java/blob/main/Main.java)
+# Code [.](https://github.com/akashdip2001/Java/blob/main/Main.java)
 
 ```java
 package com.akashdipmahapatra.java;
