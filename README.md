@@ -699,7 +699,9 @@ System.out.println(sum(5, 7));
 ```go
 outout: 12
 ```
-## ✅ mini Project
+## ✅ mini Project - Calculator
+### input 2 no. from user
+
 ```java
 	
         float number_1, number_2;
