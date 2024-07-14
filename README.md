@@ -284,7 +284,7 @@ import java.util.Scanner;
 // The file `(Main.class) name is same as this class name main
 public class Main {
 
-    static int sum(int a, int b){
+    static int sum(int a, int b){  // ❓
         return a+b;
     }
 
@@ -686,8 +686,22 @@ output:
 	erroe ....
 	Masoom
 ```
+## ✅ method calling ❓
 ```java
-	System.out.println(sum(5, 7));
+static int sum(int a, int b){
+        return a+b;
+    }
+
+// this method is accessable from anywere in code
+
+System.out.println(sum(5, 7));
+```
+```go
+outout: 12
+```
+## ✅ mini Project
+```java
+	
         float number_1, number_2;
         System.out.println("Enter first number");
 
