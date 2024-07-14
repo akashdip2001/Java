@@ -298,17 +298,17 @@ public class Main {
 ```
 
  ```go
- /* Variables In Java:
+  Variables In Java:
  ✅ Variables are containers which store data values
      - String,
-       - int,
-	 - float,
-	   - char,
-	    - boolean
+      - int,
+       - float,
+        - char,
+         - boolean
      
  ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
-  */    
+      
 ```
 ```java
      String name = "Akashdip";
@@ -357,17 +357,17 @@ public class Main {
      System.out.println(b);
      System.out.println(isAdult);
 ```
-```go
 
-/* ✅ Rules for constructing name of variables in Java
+
+## ✅ Rules for constructing name of variables in Java
     1. Can contain digits, underscores, dollar signs, letters
     2. Should begin with a letter, $ or _
     3. Java is case sensitive language which means that
            harry and Harry are two different variables altogether.
     4. Should not contain whitespaces
     5. You cannot use reserved keywords from Java
-*/
-/*
+
+```go
     Two types of Java Data Types:
 🦖 1. Primitive
       - byte ------------(1 byte),  Range: (-128) to 127
@@ -378,7 +378,7 @@ public class Main {
            - double -----(8 bytes),
             - boolean----(1 bit),
              - char v ---(2 bytes).
-*/
+
 //EXAMPLE :
 // 🍕 byte
  byte u = -56; 	// (-128) to 127
@@ -393,23 +393,25 @@ public class Main {
      System.out.println(name.contains("Akash"))  // output: True
      System.out.println(name.charAt("2")) // output: a ---> 0➡A, 1➡k, 2➡a ...
 
-//🦖 2. Non Primitive or Reference Data Type -
-
-/* ✅ Operators in Java
+🦖 2. Non Primitive or Reference Data Type -
+```
+## ✅ Operators in Java
+```go
 
     Operand, operator, Operand  =  Result
-    4          ✈️ +           7   =  11
+    4          ✈️ +        7   =  11
 
-        Types of operators in Java
+```
+### Types of operators in Java
         ✈️ Arithmetic operators
         ✈️ Assignment operators
         ✈️ Logical Operators
         ✈️ Comparison Operators
-     */
+     
 
-// ✈️ Arithmetic operators + - * / %
-// ✈️ Assignment operators = += -= *= /= %=
-```
+#### ✈️ Arithmetic operators + - * / %
+#### ✈️ Assignment operators = += -= *= /= %=
+
 ```java
     int num1 = 45, num2 = 78;
     num1 += 3;
@@ -436,27 +438,27 @@ System.out.println(++num1); //--------> 1st +1 then print 80 ----> now 80
 System.out.println(num1--);
 System.out.println(--num1);
 ```
-```go
-/*
-* ✈️ Comparison Operators:
 
+#### ✈️ Comparison Operators:
+```go
    * 1. == : checks for equality of two values
    * 2. != : checks if two values are not equal
    * 3. <
    * 4. >
    * 5. <=
    * 6. >=
-    
+```    
 
-* ✈️ Logical Operators:
-
+#### ✈️ Logical Operators:
+```go
    * 1. && - Logical and operator - returns true only if both conditions are true
    * 2. || - Logical or operator - returns true if any one condition is true
    * 3. ! - Logical not - Reverse the result from true to false and vice versa
    * */
 ```
-```java
- // ✅ Taking user input in Java
+
+ ## ✅ Taking user input in Java
+ ```java
         Scanner scan = new Scanner(System.in);
  // creat a scaner class obj. & (System.in) take input from KeyBord
         System.out.println("Enter Your Name");
@@ -468,9 +470,9 @@ System.out.println(--num1);
 //       System.out.println("Enter Your Age");
 //       int age = scan.nextInt();
 //       System.out.println(input);
-
- // ✅ If-else conditionals
-
+```
+## ✅ If-else conditionals
+```java
 if(age>20){
    System.out.println("You are an adult");
 }
@@ -480,9 +482,12 @@ else if(age>5){
 else{
      System.out.println("You are a kid");
 }
+```
+'if' is indepandent from 'else' , if you use 'if' 100 times & cant use 'else if' so JAVA run the code 100 time then give the output, OtherWise then the case is satisfy (in 4th line) JAVA immideately give the output.
 
-// ✅ Switch statement in Java
 
+## ✅ Switch statement in Java
+```java
 switch (age){
       case 12:
           System.out.println("You are 12 years old");
