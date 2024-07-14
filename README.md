@@ -483,7 +483,7 @@ else{
      System.out.println("You are a kid");
 }
 ```
-'if' is indepandent from 'else' , if you use 'if' 100 times & cant use 'else if' so JAVA run the code 100 time then give the output, OtherWise then the case is satisfy (in 4th line) JAVA immideately give the output.
+`if` is indepandent from `else` , if you use `if` 100 times & cant use `else if` so JAVA run the code 100 time then give the output, OtherWise then the case is satisfy (in 4th line) JAVA immideately give the output.
 
 
 ## ✅ Switch statement in Java
@@ -501,52 +501,57 @@ switch (age){
           default:
                System.out.println("You did not match any of the cases");
         }
+```
+in `Swinch Case` JAVA can run all the condition even-though the condetion satisfied, so we use `break`
 
-// Quick Quiz: print sunday to saturday based on numbers 1 to 7 typed by the user
+## ✅ Loops
 
-        // Loops
-        /*
-        While Loop
-        while(condition){
-            // This code will keep executing until the condition is true
-        }
-         */
-//        int i = 0;
-//        while(i<100){
-//            System.out.println(i);
-//            i += 1;
-//        }
-
-        /*
-        Do While Loop
-        do{
-            // This code will keep executing until the condition is true
-        }while(condition)
-         */
-//        int j = 0;
-//        do{
-//            System.out.println(j);
-//            j += 1;
-//        }while(j>100);
-
-        /*
-        For Loop
+### ✈️ While Loop
+```go
+while(condition){
+   // This code will keep executing until the condition is true
+}
+```
+```java
+   int i = 0;
+   while(i<100){
+       System.out.println(i);
+       i += 1;
+   }
+```
+        
+### ✈️ Do While Loop
+```go
+   do{
+     // This code will keep executing until the condition is true
+     }while(condition)
+```
+```java
+   int j = 0;
+   do{
+      System.out.println(j);
+      j += 1;
+   }while(j>100);
+```
+### ✈️ For Loop
+```go
         for(st1;st2;st3){
             //Code to be executed
             }
-         */
-//
-//        for(int i=0;i<=10;i++){
-//            if(i==2){
-//                continue;
-//            }
-////            else{
-////                System.out.println(i);
-////            }
-//            System.out.println(i);
-//        }
-
-    // Java Arrays
+```
+```java
+   for(int i=0;i<=10;i++){
+       if(i==2){
+          continue;
+       }
+//     else{
+//           System.out.println(i);
+//         }
+        System.out.println(i);
+       }
+```
+## ✅ Java Arrays
+```
 //        int [] marks = {1,2,3,5};
 //        marks[3] = 34; // this will update marks[3]
 //        System.out.println(marks[0]);
