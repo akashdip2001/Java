@@ -22,8 +22,8 @@ public class Main {
      How to declare variables:
      syntax - <dataType> <variableName> = <value>;
       */
-     String name = "Harry";
-     String channel = "CodeWithHarry";
+     String name = "Akashdip";
+     String channel = "AOT";
 //     System.out.println(name);
 //     System.out.println(name.length());
 //     System.out.println(name.toUpperCase());
@@ -33,10 +33,10 @@ public class Main {
 //     System.out.println(name + " from\t " + channel);
 //     System.out.println(name + " from\n " + channel);
 
-//        System.out.println(name.contains("Har"));
+//        System.out.println(name.contains("Aka"));
 //        System.out.println(name.charAt(2));
-//        System.out.println(name.endsWith("ry"));
-//        System.out.println(name.indexOf("rry"));
+//        System.out.println(name.endsWith("ip"));
+//        System.out.println(name.indexOf("dip"));
 
         int numb1 = 4, numb2 = 7;
 //        System.out.println(Math.max(numb1, numb2));
