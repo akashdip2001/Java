@@ -5,15 +5,17 @@
 | | | |
 | Download [**intellij-IDEA**](https://www.jetbrains.com/idea/download/?fromIDE=&section=windows) | Download [**JDK**](https://www.oracle.com/in/java/technologies/downloads/) | **7,  11,  17** |
 
-Java Notes For Quick Reference!
-1. // [comment]
+</br>
+</br>
+
+1. `// [comment]`
 Single line comment.
 
 ```java
 // Hi, i am Akashdip
 ```
 
-2. /* [comment] */
+2. `/* [comment] */`
 Multi line comment.
 
 ```java
@@ -271,30 +273,38 @@ This will search for [object] in [array].
 package com.akashdipmahapatra.java;
 import java.util.Scanner;
 
+// The file `(Main.class) name is same as this class name main
 public class Main {
 
     static int sum(int a, int b){
         return a+b;
     }
 
-    public static void main(String[] args) {
-	 // Write your code here
-//        System.out.println("Hello World");
-     /* Variables
-     Just Like:
-        -Water - Bucket
-        -Masala - box
-        -Lunch - LunchBox
-     In Java:
-     Variables are containers which store data values
-     String, int, float, char, boolean
-     How to declare variables:
-     syntax - <dataType> <variableName> = <value>;
+    public static void main(String[] args) {    // satatic => is the mathode of this Class
+						// void => it's return Nothing (Return value)
+						// main => my program flow start from here
+
+
+// print
+  System.out.println("Hello World - Akashdip");
+
+     /* Variables In Java:
+     🐼 Variables are containers which store data values
+	- String,
+	 - int,
+	  - float,
+	   - char,
+	    - boolean
+
+     🐼 How to declare variables:
+     syntax ===> <dataType> <variableName> = <value>;
       */
-     String name = "Harry";
-     String channel = "CodeWithHarry";
-//     System.out.println(name);
-//     System.out.println(name.length());
+
+     String name = "Akashdip";
+     String channel = "AkashAOT";
+
+//     System.out.println(name); ---------------------------> print the name
+//     System.out.println(name.length()); ------------------> 
 //     System.out.println(name.toUpperCase());
 //     System.out.println(name.toLowerCase());
 //     System.out.println(name + " from\" " + channel);
