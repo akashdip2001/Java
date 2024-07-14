@@ -275,7 +275,7 @@ Convert the whole array into one huge string.
 This will search for [object] in [array].
 ```
 
-# Code
+# Code [file](https://github.com/akashdip2001/Java/blob/main/Main.java)
 
 ```java
 package com.akashdipmahapatra.java;
@@ -470,33 +470,33 @@ System.out.println(--num1);
 //       System.out.println(input);
 
  // ✅ If-else conditionals
-        if(age>20){
 
-            System.out.println("You are an adult");
-        }
-        else if(age>5){
-            System.out.println("You are not a kid");
-
-        }
-        else{
-            System.out.println("You are a kid");
-        }
+if(age>20){
+   System.out.println("You are an adult");
+}
+else if(age>5){
+    System.out.println("You are not a kid");
+}
+else{
+     System.out.println("You are a kid");
+}
 
 // ✅ Switch statement in Java
 
-        switch (age){
-            case 12:
-                System.out.println("You are 12 years old");
-                break;
-            case 56:
-                System.out.println("You are 56 years old");
-                break;
-            case 16:
-                System.out.println("You are 16 years old");
-                break;
-            default:
-                System.out.println("You did not match any of the cases");
+switch (age){
+      case 12:
+          System.out.println("You are 12 years old");
+           break;
+       case 56:
+           System.out.println("You are 56 years old");
+            break;
+        case 16:
+            System.out.println("You are 16 years old");
+             break;
+          default:
+               System.out.println("You did not match any of the cases");
         }
+
 // Quick Quiz: print sunday to saturday based on numbers 1 to 7 typed by the user
 
         // Loops
