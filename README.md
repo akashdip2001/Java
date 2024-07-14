@@ -8,31 +8,32 @@
 </br>
 </br>
 
+```go
 1. `// [comment]`
 Single line comment.
-
+```
 ```java
 // Hi, i am Akashdip
 ```
-
+```go
 2. `/* [comment] */`
 Multi line comment.
-
+```
 ```java
 /*
  Hi, i am Akashdip
 4th Year Colledge student
 */
 ```
-
+```go
 3. `public`
 This can be imported publically.
-
+```
 ```java
 public class Main {
 }
 ```
-
+```go
 5. import [object].*
 Imports everything in object.
 
@@ -268,6 +269,7 @@ Convert the whole array into one huge string.
 
 83. Arrays.binarySearch([array], [object])
 This will search for [object] in [array].
+```
 
 ```java
 package com.akashdipmahapatra.java;
