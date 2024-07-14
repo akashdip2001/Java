@@ -298,15 +298,15 @@ public class Main {
 ```
 
  ```go
-  /* Variables In Java:
-     ✅ Variables are containers which store data values
-	- String,
-	 - int,
-	  - float,
+ /* Variables In Java:
+ ✅ Variables are containers which store data values
+     - String,
+       - int,
+	 - float,
 	   - char,
 	    - boolean
      
-     ✅ How to declare variables:
+ ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
   */    
 ```
@@ -328,77 +328,77 @@ public class Main {
      System.out.println(name + " from\n " + channel); //----> Akashdip from"
 //										AkashAOT
 
-// // ✅ JAVA STRING METHODS:
-//        System.out.println(name.contains("Aka")); --> Is 'Aka' present in name? =>True 
-//        System.out.println(name.charAt(2)); --------> Which character in index 2? =>a
-//        System.out.println(name.endsWith("dip")); --> Is 'dip' in the end? =>True
-//        System.out.println(name.indexOf("dip")); ---> index no?=>starting from 5
+ // ✅ JAVA STRING METHODS:
+        System.out.println(name.contains("Aka")); //--> Is 'Aka' present in name? =>True 
+        System.out.println(name.charAt(2)); //--------> Which character in index 2? =>a
+        System.out.println(name.endsWith("dip")); //--> Is 'dip' in the end? =>True
+        System.out.println(name.indexOf("dip")); //---> index no?=>starting from 5
 
 
-// // ✅ MATH CLASS in JAVA
+ // ✅ MATH CLASS in JAVA
         int numb1 = 4, numb2 = 7;
-//        System.out.println(Math.max(numb1, numb2)); //no need to import Math, because it's inbuilt Class in JDK
-//        System.out.println(Math.min(numb1, numb2)); //min
-//        System.out.println(Math.sqrt(36)); //squre root
-//        System.out.println(Math.abs(-36)); // change (-) to (+)
-//        System.out.println(Math.abs(6)); // no change, already (+)
-//        System.out.println(Math.random()); // give a 0<=Random no<1
-//        System.out.println(4+(8-4)*Math.random()); // give a 4<Random no<8
-//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
-//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
-//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
-//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
-
+        System.out.println(Math.max(numb1, numb2)); //no need to import Math, because it's inbuilt Class in JDK
+        System.out.println(Math.min(numb1, numb2)); //min
+        System.out.println(Math.sqrt(36)); //squre root
+        System.out.println(Math.abs(-36)); // change (-) to (+)
+        System.out.println(Math.abs(6)); // no change, already (+)
+        System.out.println(Math.random()); // give a 0<=Random no<1
+        System.out.println(4+(8-4)*Math.random()); // give a 4<Random no<8
+        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
 ```
 ```java
      int a = 45, x=56, y=67;
      float b = 45.22f;  // []f
      boolean isAdult = false;
-//     System.out.println(x);
-//     System.out.println(b);
-//     System.out.println(isAdult);
+     System.out.println(x);
+     System.out.println(b);
+     System.out.println(isAdult);
 ```
 ```go
 
 /* ✅ Rules for constructing name of variables in Java
-        1. Can contain digits, underscores, dollar signs, letters
-        2. Should begin with a letter, $ or _
-        3. Java is case sensitive language which means that
+    1. Can contain digits, underscores, dollar signs, letters
+    2. Should begin with a letter, $ or _
+    3. Java is case sensitive language which means that
            harry and Harry are two different variables altogether.
-        4. Should not contain whitespaces
-        5. You cannot use reserved keywords from Java
- */
-    /*
+    4. Should not contain whitespaces
+    5. You cannot use reserved keywords from Java
+*/
+/*
     Two types of Java Data Types:
-        🦖 1. Primitive - byte --------------------- (1 byte),  Range: (-128) to 127
-			  - short ------------------- (2 bytes),
-			    - int   ----------------- (4 bytes),
-			      - long   -------------- (8 bytes),
-				 - float  ----------- (4 bytes),
-				    - double ---------(8 bytes),
-					- boolean-----(1 bit),
-					  - char v ---(2 bytes).
-    */
-	//EXAMPLE :
-	   // 🍕 byte
-	    byte u = -56; 	// (-128) to 127
-	     double d = 45.635435345d;  // []d
-	      // System.out.println(d);
+🦖 1. Primitive
+      - byte ------------(1 byte),  Range: (-128) to 127
+       - short ----------(2 bytes),
+        - int   ---------(4 bytes),
+         - long   -------(8 bytes),
+          - float  ------(4 bytes),
+           - double -----(8 bytes),
+            - boolean----(1 bit),
+             - char v ---(2 bytes).
+*/
+//EXAMPLE :
+// 🍕 byte
+ byte u = -56; 	// (-128) to 127
+   double d = 45.635435345d;  // []d
+    // System.out.println(d);
 
-		// 🍕 char
-	         char grade = 'A';
-	          // System.out.println(grade);
+      // 🍕 char
+        char grade = 'A';
+          // System.out.println(grade);
 
-	             // 🍕 boolean
-		System.out.println(name.contains("Akash"))  // output: True
-		System.out.println(name.charAt("2")) // output: a ---> 0➡A, 1➡k, 2➡a ...
+            // 🍕 boolean
+     System.out.println(name.contains("Akash"))  // output: True
+     System.out.println(name.charAt("2")) // output: a ---> 0➡A, 1➡k, 2➡a ...
 
-//	🦖 2. Non Primitive or Reference Data Type -
+//🦖 2. Non Primitive or Reference Data Type -
 
-  /* ✅ Operators in Java
+/* ✅ Operators in Java
 
-        Operand, operator, Operand  =  Result
-        4          ✈️ +           7   =  11
+    Operand, operator, Operand  =  Result
+    4          ✈️ +           7   =  11
 
         Types of operators in Java
         ✈️ Arithmetic operators
@@ -415,87 +415,89 @@ public class Main {
     num1 += 3;
     num2 -= 8;
     // also - *=, /=, %=
+
+
+System.out.print("The value of num1 + num2 is ");
+System.out.println(num1 + num2);
+
+System.out.print("The value of num1 - num2 is ");
+System.out.println(num1 - num2);
+
+System.out.print("The value of num1 * num2 is ");
+System.out.println(num1 * num2);
+
+System.out.print("The value of num1 / num2 is ");
+System.out.println(num1 / num2);
+
+System.out.print("The value of num1 % num2 is ");
+System.out.println(num1 % num2);
+System.out.println(num2++); //--------> print 78 than +1  -------> now 79
+System.out.println(++num1); //--------> 1st +1 then print 80 ----> now 80
+System.out.println(num1--);
+System.out.println(--num1);
 ```
 ```go
-//        System.out.print("The value of num1 + num2 is ");
-//        System.out.println(num1 + num2);
-//
-//        System.out.print("The value of num1 - num2 is ");
-//        System.out.println(num1 - num2);
-//
-//        System.out.print("The value of num1 * num2 is ");
-//        System.out.println(num1 * num2);
-//
-//        System.out.print("The value of num1 / num2 is ");
-//        System.out.println(num1 / num2);
-//
-//        System.out.print("The value of num1 % num2 is ");
-//        System.out.println(num1 % num2);
-//        System.out.println(num2++); //--------> print 78 than +1  -------> now 79
-//        System.out.println(++num1); //--------> 1st +1 then print 80 ----> now 80
-//        System.out.println(num1--);
-//        System.out.println(--num1);
-
-    /*
+/*
 * ✈️ Comparison Operators:
 
-    * 1. == : checks for equality of two values
-    * 2. != : checks if two values are not equal
-    * 3. <
-    * 4. >
-    * 5. <=
-    * 6. >=
+   * 1. == : checks for equality of two values
+   * 2. != : checks if two values are not equal
+   * 3. <
+   * 4. >
+   * 5. <=
+   * 6. >=
     
 
 * ✈️ Logical Operators:
 
-    * 1. && - Logical and operator - returns true only if both conditions are true
-    * 2. || - Logical or operator - returns true if any one condition is true
-    * 3. ! - Logical not - Reverse the result from true to false and vice versa
-    * */
+   * 1. && - Logical and operator - returns true only if both conditions are true
+   * 2. || - Logical or operator - returns true if any one condition is true
+   * 3. ! - Logical not - Reverse the result from true to false and vice versa
+   * */
+```
+```java
+ // ✅ Taking user input in Java
+        Scanner scan = new Scanner(System.in);
+ // creat a scaner class obj. & (System.in) take input from KeyBord
+        System.out.println("Enter Your Name");
+        String input = scan.nextLine();  // output: Akashdip Mahapatra
+    //  String input = scan.next();     // output: Akashdip
+        System.out.println(input);
 
-// // ✅ Taking user input in Java
-//        Scanner scan = new Scanner(System.in);
-// // creat a scaner class obj. & (System.in) take input from KeyBord
-//        System.out.println("Enter Your Name");
-//        String input = scan.nextLine();  // output: Akashdip Mahapatra
-//    //  String input = scan.next();     // output: Akashdip
-//        System.out.println(input);
+//       Scanner scan = new Scanner(System.in);
+//       System.out.println("Enter Your Age");
+//       int age = scan.nextInt();
+//       System.out.println(input);
 
-// //       Scanner scan = new Scanner(System.in);
-// //       System.out.println("Enter Your Age");
-// //       int age = scan.nextInt();
-// //       System.out.println(input);
+ // ✅ If-else conditionals
+        if(age>20){
 
-// // ✅ If-else conditionals
-//        if(age>20){
-//
-//            System.out.println("You are an adult");
-//        }
-//        else if(age>5){
-//            System.out.println("You are not a kid");
-//
-//        }
-//        else{
-//            System.out.println("You are a kid");
-//        }
+            System.out.println("You are an adult");
+        }
+        else if(age>5){
+            System.out.println("You are not a kid");
 
-    // ✅ Switch statement in Java
+        }
+        else{
+            System.out.println("You are a kid");
+        }
 
-//        switch (age){
-//            case 12:
-//                System.out.println("You are 12 years old");
-//                break;
-//            case 56:
-//                System.out.println("You are 56 years old");
-//                break;
-//            case 16:
-//                System.out.println("You are 16 years old");
-//                break;
-//            default:
-//                System.out.println("You did not match any of the cases");
-//        }
-    // Quick Quiz: print sunday to saturday based on numbers 1 to 7 typed by the user
+// ✅ Switch statement in Java
+
+        switch (age){
+            case 12:
+                System.out.println("You are 12 years old");
+                break;
+            case 56:
+                System.out.println("You are 56 years old");
+                break;
+            case 16:
+                System.out.println("You are 16 years old");
+                break;
+            default:
+                System.out.println("You did not match any of the cases");
+        }
+// Quick Quiz: print sunday to saturday based on numbers 1 to 7 typed by the user
 
         // Loops
         /*
