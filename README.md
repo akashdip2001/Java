@@ -1,7 +1,8 @@
 # Java-Syntax
 
-| [Download JDK](https://www.oracle.com/in/java/technologies/downloads/) | JDK LTS  7,  11,  17 |
-|---|---|
+| IDE integrated development environment | java interpreter (JDK) | JDK Life-Time-Support (LTS) |
+| :---: | :---: | :---: |
+| Download [**intellij-IDEA**](https://www.jetbrains.com/idea/download/?fromIDE=&section=windows) | Download [**JDK**](https://www.oracle.com/in/java/technologies/downloads/) | **7,  11,  17** |
 
 Java Notes For Quick Reference!
 1. // [comment]
