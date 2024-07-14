@@ -3,8 +3,6 @@
 | [Download JDK](https://www.oracle.com/in/java/technologies/downloads/) | JDK LTS  7,  11,  17 |
 |---|---|
 
-package com.codewithharry;
-
 Java Notes For Quick Reference!
 1. // [comment]
 Single line comment.
@@ -268,6 +266,7 @@ Convert the whole array into one huge string.
 This will search for [object] in [array].
 
 ```java
+package com.akashdipmahapatra.java;
 import java.util.Scanner;
 
 public class Main {
