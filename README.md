@@ -1,4 +1,4 @@
-# Java-Syntax
+# Java
 
 | IDE integrated development environment | java interpreter (JDK) | JDK Life-Time-Support (LTS) |
 | :---: | :---: | :---: |
