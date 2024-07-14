@@ -661,18 +661,33 @@ for(String value:cars){
 
 ## ✅ Try - Catch
 ```java
-//        String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
-//
-//        try{
-//            System.out.println(cars[3]);
-//        }
-//        catch(Exception e){
-//            System.out.println(e);
-//        }
-//
-//        System.out.println("Masoom");
-//        System.out.println(sum(5, 7));
+String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
+System.out.println(cars[3]);     //wrong ❌ 
+System.out.println("New Name");  // ✅
+```
+```go
+outout: Error ⚠️ // 2nd line ✅ But not print in output Because of previous line is wrong ❌
+```
+To run Next Line, even though previous line in wrong ❌ use `Try-Catch`
+```java
+String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
 
+try{
+    System.out.println(cars[3]);  // try it ⬇️
+}
+catch(Exception e){
+     System.out.println(e);   //⬆️ it not, print the error ⚠️ in e
+}
+
+       System.out.println("Masoom"); 
+```
+```go
+output:
+	erroe ....
+	Masoom
+```
+```java
+	System.out.println(sum(5, 7));
         float number_1, number_2;
         System.out.println("Enter first number");
 
