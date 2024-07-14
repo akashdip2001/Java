@@ -1,4 +1,4 @@
-# Java <a target="blank" href= https://www.geeksforgeeks.org/java/> <img width ='40px' src ='https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png'> </a>
+# Java <img width ='40px' src ='https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png'>
 
 <p float="right">
   <img src="img/java-logo.png" width="100%" />
