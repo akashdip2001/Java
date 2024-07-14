@@ -305,14 +305,15 @@ public class Main {
      String name = "Akashdip";
      String channel = "AkashAOT";
 
-//     System.out.println(name); ---------------------------> print the name
-//     System.out.println(name.length()); ------------------> 
-//     System.out.println(name.toUpperCase());
-//     System.out.println(name.toLowerCase());
-//     System.out.println(name + " from\" " + channel);
-//     System.out.println(name + " from\\ " + channel);
-//     System.out.println(name + " from\t " + channel);
-//     System.out.println(name + " from\n " + channel);
+//     System.out.println(name); ---------------------------> print the name --> Akashdip
+//     System.out.println(name.length()); ------------------> length --> 7
+//     System.out.println(name.toUpperCase()); -------------> AKASHDIP
+//     System.out.println(name.toLowerCase()); -------------> akashdip
+//     System.out.println(name + " from\" " + channel); ----> Akashdip from"
+//     System.out.println(name + " from\\ " + channel); ----> Akashdip from\
+//     System.out.println(name + " from\t " + channel); ----> Akashdip from	AkashAOT
+//     System.out.println(name + " from\n " + channel); ----> Akashdip from"
+//										AkashAOT
 
 //        System.out.println(name.contains("Har"));
 //        System.out.println(name.charAt(2));
