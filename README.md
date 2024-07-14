@@ -271,6 +271,8 @@ Convert the whole array into one huge string.
 This will search for [object] in [array].
 ```
 
+# Code
+
 ```java
 package com.akashdipmahapatra.java;
 import java.util.Scanner;
@@ -363,14 +365,20 @@ public class Main {
 				    - double ---------(8 bytes),
 					- boolean-----(1 bit),
 					  - char v ---(2 bytes).
-    */ EXAMPLE :
+    */
+	//EXAMPLE :
+	   // 🍕 byte
+	    byte u = -56; 	// (-128) to 127
+	     double d = 45.635435345d;  // []d
+	      // System.out.println(d);
 
-    byte u = -56; 	// (-128) to 127
-    double d = 45.635435345d;  // []d
-    // System.out.println(d);
+		// 🍕 char
+	         char grade = 'A';
+	          // System.out.println(grade);
 
-    char grade = 'A';
-    // System.out.println(grade);
+	             // 🍕 boolean
+		System.out.println(name.contains("Akash"))  // output: True
+		System.out.println(name.charAt("2")) // output: a ---> 0➡A, 1➡k, 2➡a ...
 
 //	🦖 2. Non Primitive or Reference Data Type -
 
