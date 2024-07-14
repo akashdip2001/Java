@@ -295,22 +295,26 @@ public class Main {
 
 // print
   System.out.println("Hello World - Akashdip");  // println --> ln - use for new line
+```
 
-     /* Variables In Java:
+ ```go
+    /* Variables In Java:
      ✅ Variables are containers which store data values
 	- String,
 	 - int,
 	  - float,
 	   - char,
 	    - boolean
-
+     
      ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
       */
-
+```
+```java
      String name = "Akashdip";
      String channel = "AkashAOT";
-
+```
+```go
 //     System.out.println(name); ---------------------------> print the name --> Akashdip
 //     System.out.println(name.length()); ------------------> length --> 7
 //     System.out.println(name.toUpperCase()); -------------> AKASHDIP
@@ -345,14 +349,16 @@ public class Main {
 //        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
 //        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
 
-
+```
+```java
      int a = 45, x=56, y=67;
      float b = 45.22f;  // []f
      boolean isAdult = false;
 //     System.out.println(x);
 //     System.out.println(b);
 //     System.out.println(isAdult);
-
+```
+```go
 
 /* ✅ Rules for constructing name of variables in Java
         1. Can contain digits, underscores, dollar signs, letters
@@ -403,11 +409,14 @@ public class Main {
 
 // ✈️ Arithmetic operators + - * / %
 // ✈️ Assignment operators = += -= *= /= %=
-
+```
+```java
     int num1 = 45, num2 = 78;
     num1 += 3;
     num2 -= 8;
     // also - *=, /=, %=
+```
+```go
 //        System.out.print("The value of num1 + num2 is ");
 //        System.out.println(num1 + num2);
 //
