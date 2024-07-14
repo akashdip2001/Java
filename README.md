@@ -297,14 +297,14 @@ public class Main {
   System.out.println("Hello World - Akashdip");  // println --> ln - use for new line
 
      /* Variables In Java:
-     🐼 Variables are containers which store data values
+     ✅ Variables are containers which store data values
 	- String,
 	 - int,
 	  - float,
 	   - char,
 	    - boolean
 
-     🐼 How to declare variables:
+     ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
       */
 
@@ -324,11 +324,14 @@ public class Main {
 //     System.out.println(name + " from\n " + channel); ----> Akashdip from"
 //										AkashAOT
 
-//        System.out.println(name.contains("Har"));
-//        System.out.println(name.charAt(2));
-//        System.out.println(name.endsWith("ry"));
-//        System.out.println(name.indexOf("rry"));
+// // ✅ JAVA STRING METHODS:
+//        System.out.println(name.contains("Aka")); --> Is 'Aka' present in name? =>True 
+//        System.out.println(name.charAt(2)); --------> Which character in index 2? =>a
+//        System.out.println(name.endsWith("dip")); --> Is 'dip' in the end? =>True
+//        System.out.println(name.indexOf("dip")); ---> index no?=>starting from 5
 
+
+// // ✅ MATA CLASS in JAVA
         int numb1 = 4, numb2 = 7;
 //        System.out.println(Math.max(numb1, numb2));
 //        System.out.println(Math.min(numb1, numb2));
@@ -351,7 +354,7 @@ public class Main {
 //     System.out.println(isAdult);
 
 
-/* 🐼 Rules for constructing name of variables in Java
+/* ✅ Rules for constructing name of variables in Java
         1. Can contain digits, underscores, dollar signs, letters
         2. Should begin with a letter, $ or _
         3. Java is case sensitive language which means that
@@ -386,7 +389,7 @@ public class Main {
 
 //	🦖 2. Non Primitive or Reference Data Type -
 
-  /* 🐼 Operators in Java
+  /* ✅ Operators in Java
 
         Operand, operator, Operand  =  Result
         4          ✈️ +           7   =  11
@@ -442,7 +445,7 @@ public class Main {
     * 3. ! - Logical not - Reverse the result from true to false and vice versa
     * */
 
-// // 🐼 Taking user input in Java
+// // ✅ Taking user input in Java
 //        Scanner scan = new Scanner(System.in);
 // // creat a scaner class obj. & (System.in) take input from KeyBord
 //        System.out.println("Enter Your Name");
@@ -455,7 +458,7 @@ public class Main {
 // //       int age = scan.nextInt();
 // //       System.out.println(input);
 
-// // 🐼 If-else conditionals
+// // ✅ If-else conditionals
 //        if(age>20){
 //
 //            System.out.println("You are an adult");
