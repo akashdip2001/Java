@@ -512,6 +512,7 @@ while(condition){
    // This code will keep executing until the condition is true
 }
 ```
+###### Example:
 ```java
    int i = 0;
    while(i<100){
@@ -526,6 +527,7 @@ while(condition){
      // This code will keep executing until the condition is true
      }while(condition)
 ```
+###### Example:
 ```java
    int j = 0;
    do{
@@ -539,6 +541,46 @@ while(condition){
             //Code to be executed
             }
 ```
+###### Example: 1
+```java
+   for(int i=0;i<=10;i++){
+        System.out.println(i);
+       }
+```
+```go
+output:
+	0
+	1
+	2
+	...
+	10
+```
+###### Example: 2
+```java
+   for(int i=0;i<=10;i++){
+        System.out.println(i);
+	 break;
+       }
+```
+```go
+	0
+```
+###### Example: 3 (break)
+```java
+   for(int i=0;i<=10;i++){
+       if(i>2){
+           ;
+       }
+       else{
+        System.out.println(i);
+       }
+```
+```go
+	0
+	1
+	2
+```
+###### Example: 4 (continue)
 ```java
    for(int i=0;i<=10;i++){
        if(i==2){
@@ -549,6 +591,14 @@ while(condition){
 //         }
         System.out.println(i);
        }
+```
+```go
+	0
+	1
+	❌
+	3
+	4
+	5 ...
 ```
 ## ✅ Java Arrays
 ```
