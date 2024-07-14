@@ -335,7 +335,7 @@ public class Main {
 
 
      int a = 45, x=56, y=67;
-     float b = 45.22f;
+     float b = 45.22f;  // []f
      boolean isAdult = false;
 //     System.out.println(x);
 //     System.out.println(b);
@@ -352,7 +352,7 @@ public class Main {
  */
     /*
     Two types of Java Data Types:
-        🦖 1. Primitive - byte --------------------- (1 byte),
+        🦖 1. Primitive - byte --------------------- (1 byte),  Range: (-128) to 127
 			  - short ------------------- (2 bytes),
 			    - int   ----------------- (4 bytes),
 			      - long   -------------- (8 bytes),
@@ -360,24 +360,27 @@ public class Main {
 				    - double ---------(8 bytes),
 					- boolean-----(1 bit),
 					  - char v ---(2 bytes).
-	🦖 2. Non Primitive or Reference Data Type -
-    */
-    byte u = -56;
-    double d = 45.635435345d;
-//    System.out.println(d);
-    char grade = 'A';
-//    System.out.println(grade);
+    */ EXAMPLE :
 
-    /* Operators in Java
+    byte u = -56; 	// (-128) to 127
+    double d = 45.635435345d;  // []d
+    // System.out.println(d);
+
+    char grade = 'A';
+    // System.out.println(grade);
+
+//	🦖 2. Non Primitive or Reference Data Type -
+
+  /* 🐼 Operators in Java
 
         Operand, operator, Operand  =  Result
-        4           +           7   =  11
+        4          ✈️ +           7   =  11
 
         Types of operators in Java
-        Arithmetic operators
-        Assignment operators
-        Logical Operators
-        Comparison Operators
+        ✈️ Arithmetic operators
+        ✈️ Assignment operators
+        ✈️ Logical Operators
+        ✈️ Comparison Operators
      */
     int num1 = 45, num2=78;
     num1 += 3;
