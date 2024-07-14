@@ -601,33 +601,66 @@ output:
 	5 ...
 ```
 ## ✅ Java Arrays
+```java
+int [] marks = {1,2,3,5};
+System.out.println(marks[0]);
 ```
-//        int [] marks = {1,2,3,5};
-//        marks[3] = 34; // this will update marks[3]
-//        System.out.println(marks[0]);
-//        System.out.println(marks[3]);
-//
-//        // Classical way to iterate an array
-//        for(int i=0;i<marks.length;i++){
-//            System.out.println(marks[i]);
-//        }
-//        System.out.println("This is for each loop:");
-//
-//        // For each loop
-//        for(int value:marks){
-//            System.out.println(value);
-//        }
-//
-//        int [][] matrix = {{1,2,3}},
-//                            {4,5,6}};
-//        System.out.println(matrix[0][1]);
-//
-//        String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
-//        for(String value:cars){
-//            System.out.println(value);
-//        }
+```go
+output:
+	1 // Because of, in index 0 => the value is 1
+```
+```java
+int [] marks = {1,2,3,5};
+marks[3] = 34; // this will update marks[3], so the output change 5 to 34
+System.out.println(marks[3]);
+```
+```go
+output:
+	5 ❌, 34 ✅
+```
+##### Classical way to iterate an array
+```java
+int [] marks = {1,2,3,5};      
+for(int i=0;i<marks.length;i++){
+	System.out.println(marks[i]);
+}
+```
+```go
+output:
+	1
+	2
+	3
+	5
+```
+## ✅ For each loop
+```java
+System.out.println("This is for each loop:");
 
-        // Try - Catch
+for(int value:marks){
+	System.out.println(value);
+}
+```
+####### output: same ⬆
+
+## ✅ 2D Array
+```java
+int [][] matrix = {{1,2,3}},   // [][] for 2D Array
+                   {4,5,6}};
+        System.out.println(matrix[0][1]);
+```
+```go
+output: 2
+```
+## ✅ String Array
+```java
+String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
+for(String value:cars){
+    System.out.println(value);
+}
+```
+
+## ✅ Try - Catch
+```java
 //        String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
 //
 //        try{
