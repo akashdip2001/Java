@@ -470,7 +470,8 @@ public class Main {
 //        else{
 //            System.out.println("You are a kid");
 //        }
-    //   Switch statement in Java
+
+    // ✅ Switch statement in Java
 
 //        switch (age){
 //            case 12:
