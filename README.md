@@ -539,7 +539,7 @@ public class Main {
 //            System.out.println(value);
 //        }
 //
-//        int [][] matrix = {{1,2,3},
+//        int [][] matrix = {{1,2,3}},
 //                            {4,5,6}};
 //        System.out.println(matrix[0][1]);
 //
