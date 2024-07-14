@@ -1,6 +1,7 @@
 # Java-Syntax
 
-| [Download JDK](https://www.oracle.com/in/java/technologies/downloads/) | JDK LTS 7-11-1 
+| [Download JDK](https://www.oracle.com/in/java/technologies/downloads/) | JDK LTS  7,  11,  17 |
+|---|---|
 
 package com.codewithharry;
 
