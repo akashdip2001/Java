@@ -334,16 +334,16 @@ public class Main {
 // // ✅ MATH CLASS in JAVA
         int numb1 = 4, numb2 = 7;
 //        System.out.println(Math.max(numb1, numb2)); //no need to import Math, because it's inbuilt Class in JDK
-//        System.out.println(Math.min(numb1, numb2));
-//        System.out.println(Math.sqrt(36));
-//        System.out.println(Math.abs(-36));
-//        System.out.println(Math.abs(6));
-//        System.out.println(Math.random());
-//        System.out.println(4+(8-4)*Math.random());
-//        System.out.println(4+(8-4)*Math.random());
-//        System.out.println(4+(8-4)*Math.random());
-//        System.out.println(4+(8-4)*Math.random());
-//        System.out.println(4+(8-4)*Math.random());
+//        System.out.println(Math.min(numb1, numb2)); //min
+//        System.out.println(Math.sqrt(36)); //squre root
+//        System.out.println(Math.abs(-36)); // change (-) to (+)
+//        System.out.println(Math.abs(6)); // no change, already (+)
+//        System.out.println(Math.random()); // give a 0<=Random no<1
+//        System.out.println(4+(8-4)*Math.random()); // give a 4<Random no<8
+//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
+//        System.out.println(4+(8-4)*Math.random()); // 4 < [RM] < 8
 
 
      int a = 45, x=56, y=67;
