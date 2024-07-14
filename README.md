@@ -288,7 +288,7 @@ public class Main {
 
 
 // print
-  System.out.println("Hello World - Akashdip");
+  System.out.println("Hello World - Akashdip");  // println --> ln - use for new line
 
      /* Variables In Java:
      🐼 Variables are containers which store data values
@@ -382,10 +382,14 @@ public class Main {
         ✈️ Logical Operators
         ✈️ Comparison Operators
      */
-    int num1 = 45, num2=78;
+
+// ✈️ Arithmetic operators + - * / %
+// ✈️ Assignment operators = += -= *= /= %=
+
+    int num1 = 45, num2 = 78;
     num1 += 3;
     num2 -= 8;
-    // Explore these operators - *=, /=, %=
+    // also - *=, /=, %=
 //        System.out.print("The value of num1 + num2 is ");
 //        System.out.println(num1 + num2);
 //
@@ -400,33 +404,43 @@ public class Main {
 //
 //        System.out.print("The value of num1 % num2 is ");
 //        System.out.println(num1 % num2);
-//        System.out.println(num2++);
-//        System.out.println(++num1);
+//        System.out.println(num2++); //--------> print 78 than +1  -------> now 79
+//        System.out.println(++num1); //--------> 1st +1 then print 80 ----> now 80
 //        System.out.println(num1--);
 //        System.out.println(--num1);
 
     /*
-    * Comparison Operators:
+* ✈️ Comparison Operators:
+
     * 1. == : checks for equality of two values
     * 2. != : checks if two values are not equal
     * 3. <
     * 4. >
     * 5. <=
     * 6. >=
-    *
-    * Logical Operators:
+    
+
+* ✈️ Logical Operators:
+
     * 1. && - Logical and operator - returns true only if both conditions are true
     * 2. || - Logical or operator - returns true if any one condition is true
     * 3. ! - Logical not - Reverse the result from true to false and vice versa
     * */
 
-    // Taking user input in Java
+// // 🐼 Taking user input in Java
 //        Scanner scan = new Scanner(System.in);
-//        System.out.println("Enter Your Age");
-//        int age = scan.nextInt();
+// // creat a scaner class obj. & (System.in) take input from KeyBord
+//        System.out.println("Enter Your Name");
+//        String input = scan.nextLine();  // output: Akashdip Mahapatra
+//    //  String input = scan.next();     // output: Akashdip
 //        System.out.println(input);
 
-    // If-else conditionals
+// //       Scanner scan = new Scanner(System.in);
+// //       System.out.println("Enter Your Age");
+// //       int age = scan.nextInt();
+// //       System.out.println(input);
+
+// // 🐼 If-else conditionals
 //        if(age>20){
 //
 //            System.out.println("You are an adult");
