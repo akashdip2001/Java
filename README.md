@@ -309,6 +309,9 @@ public class Main {
 //     System.out.println(name.length()); ------------------> length --> 7
 //     System.out.println(name.toUpperCase()); -------------> AKASHDIP
 //     System.out.println(name.toLowerCase()); -------------> akashdip
+
+// //  🌐 String Concatenation (name + "000" + channel) ➡️ Akashdip 000 AkashAOT
+// //  🌐 Escape Sequence Characters \" \\ \t \n
 //     System.out.println(name + " from\" " + channel); ----> Akashdip from"
 //     System.out.println(name + " from\\ " + channel); ----> Akashdip from\
 //     System.out.println(name + " from\t " + channel); ----> Akashdip from	AkashAOT
