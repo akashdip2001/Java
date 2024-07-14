@@ -1,5 +1,7 @@
 # Java-Syntax
 
+| [Download JDK](https://www.oracle.com/in/java/technologies/downloads/) | JDK LTS 7-11-1 
+
 package com.codewithharry;
 
 Java Notes For Quick Reference!
