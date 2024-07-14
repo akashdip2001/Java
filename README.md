@@ -298,7 +298,7 @@ public class Main {
 ```
 
  ```go
-    /* Variables In Java:
+  Variables In Java:
      ✅ Variables are containers which store data values
 	- String,
 	 - int,
@@ -308,7 +308,7 @@ public class Main {
      
      ✅ How to declare variables:
      syntax ===> <dataType> <variableName> = <value>;
-      */
+      
 ```
 ```java
      String name = "Akashdip";
