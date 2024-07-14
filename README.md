@@ -1,7 +1,7 @@
 # Java <img width ='40px' src ='https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png'>
 
 <p float="right">
-  <img src="img/java-logo.png" width="100%" />
+  <img src="img/java-logo-big.png" width="100%" />
 </p>
 
 | IDE integrated development environment | java interpreter (JDK) | JDK Life-Time-Support (LTS) |
