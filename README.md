@@ -457,7 +457,7 @@ System.out.println(--num1);
    * */
 ```
 
- ## ✅ Taking user input in Java
+## ✅ Taking user input in Java
  ```java
         Scanner scan = new Scanner(System.in);
  // creat a scaner class obj. & (System.in) take input from KeyBord
