@@ -19,7 +19,7 @@ java  -version
  */
 public class Main {
 
-// type psvm enter
+// type psvm enter --> Public Static Void Main
     public static void main(String[] args) {
         // type sysout enter
         System.out.println("Hallow World");
