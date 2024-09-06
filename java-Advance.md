@@ -27,7 +27,7 @@ public class Main {
 }
 ```
 
-### output 
+### output_1
 ##### using this Run button
 ![java run](https://github.com/user-attachments/assets/788dcde6-6aca-4532-9c61-def5a86fa1d3)
 
@@ -37,3 +37,13 @@ PS C:\Users\akash\OneDrive\Desktop\java>  & 'C:\Program Files\Java\jdk-22\bin\ja
 Hallow World
 PS C:\Users\akash\OneDrive\Desktop\java> 
 ```
+### output_2
+![cord runner](https://github.com/user-attachments/assets/9cc8ccf7-4430-4ed3-af66-ea8c629348f1)
+![cord runner button](https://github.com/user-attachments/assets/486f61f8-54d0-4b04-a0d3-642b9f327b5e)
+##### outpur in one line
+```go
+PS C:\Users\akash\OneDrive\Desktop\java> cd "c:\Users\akash\OneDrive\Desktop\java\" ; if ($?) { javac Main.java } ; if ($?) { java Main }
+Hallow World
+PS C:\Users\akash\OneDrive\Desktop\java> 
+```
+
