@@ -1,9 +1,13 @@
 <img src="../img/IDEA%20(1).png">
 <img src="../img/IDEA%20(2).png">
 
+</br>
+
+<img src="../img/BigO.jpg">
+
 ---
 
-# Linear Vs Binary - 🔍 Search - [Code](A_Search.java)
+# Linear Vs Binary - 🔍 Search - [Code](A01_Search.java)
 
 ```java
 package com.akashdipmahapatra.DSA;
@@ -99,6 +103,8 @@ public static int BinarySearch(int[] arr, int target){
 <img src="../img/JAVA%20Search%20(4).png">
 <img src="../img/JAVA%20Search%20(5).png">
 
+<img src="../img/BigO.jpg">
+
 <img src="../img/line.gif">
 
 # Iterative Vs Recursive
@@ -130,6 +136,21 @@ while (left <= right) {
 * It does **not** do: `return BinarySearch(arr, newLeft, newRight, target)`
 * It only loops — it doesn’t create a **stack of calls**
 
+### [code](A02_Recursive.java)
+
+```java
+if(left<=right){
+            int mid = (left + right)/2;
+
+            if(arr[mid] == target){
+                return mid;
+            }else if(arr[mid] < target){
+                return BinarySearch(arr, target, mid+1, right);
+            }else{
+                return BinarySearch(arr, target, left, mid-1);
+            }
+        }
+```
 ---
 
 ## ❓ Which is Best ?
@@ -189,4 +210,7 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 
 ### ✅ So, **Iterative Binary Search is better overall** for DSA practice, exams like **TCS NQT/DCA**, and coding interviews.
 
+<img src="../img/colour_line.png">
+
+# Sorting 🔁
 
