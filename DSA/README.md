@@ -3,7 +3,7 @@
 
 ---
 
-# Linear Vs Binary - 🔍 Search
+# Linear Vs Binary - 🔍 Search - [Code](A_Search.java)
 
 ```java
 package com.akashdipmahapatra.DSA;
@@ -91,10 +91,102 @@ public static int BinarySearch(int[] arr, int target){
 }
 ```
 
-## Linear Vs Binary - 🔍 Search
+## Binary Search 🔍 O(log n)
 
 <img src="../img/JAVA%20Search%20(1).png">
 <img src="../img/JAVA%20Search%20(2).png">
 <img src="../img/JAVA%20Search%20(3).png">
 <img src="../img/JAVA%20Search%20(4).png">
 <img src="../img/JAVA%20Search%20(5).png">
+
+<img src="../img/line.gif">
+
+# Iterative Vs Recursive
+
+> **No**, the binary search code I wrote and shared above is **not recursive** — it is **iterative**.
+
+---
+
+### 🔁 **Iterative Binary Search**
+
+✅ Uses a `while` loop </br>
+✅ Keeps updating `left` and `right` </br>
+❌ Does **not** call itself (no recursion)
+
+Previous code:
+
+```java
+while (left <= right) {
+    int mid = (left + right) / 2;
+    if (arr[mid] == target) return mid;
+    else if (arr[mid] < target) left = mid + 1;
+    else right = mid - 1;
+}
+```
+---
+
+### 🔁❌ Not Recursive Because:
+
+* It does **not** do: `return BinarySearch(arr, newLeft, newRight, target)`
+* It only loops — it doesn’t create a **stack of calls**
+
+---
+
+## ❓ Which is Best ?
+
+> Let's compare **Iterative vs Recursive Binary Search** in terms of **Data Structures and Algorithms (DSA)** — especially for **time complexity**, **space**, and **interview preference**.
+
+---
+
+## ✅ 1. **Time Complexity** – Same for Both
+
+| Type                    | Best | Average  | Worst    |
+| ----------------------- | ---- | -------- | -------- |
+| Iterative Binary Search | O(1) | O(log n) | O(log n) |
+| Recursive Binary Search | O(1) | O(log n) | O(log n) |
+
+### 💡 Why O(log n)?
+
+Because in every step, the search space is divided by 2.
+
+---
+
+## 🧠 2. **Space Complexity** – Different!
+
+| Type          | Space Complexity                              |
+| ------------- | --------------------------------------------- |
+| **Iterative** | **O(1)** – Constant space (no extra memory) ✅ |
+| **Recursive** | **O(log n)** – Due to recursion call stack ❌  |
+
+### 🔥 Key Point:
+
+Recursive Binary Search uses extra memory for **function call stack** (because each recursive call is stored until it's resolved). Iterative doesn’t.
+
+---
+
+## 🧪 3. **In Practice / Interviews / Exams:**
+
+| Criteria              | Recommended           |
+| --------------------- | --------------------- |
+| **Performance**       | Iterative ✅           |
+| **Memory Efficient**  | Iterative ✅           |
+| **Shorter code**      | Recursive (sometimes) |
+| **TCS DCA / NQT**     | Iterative ✅           |
+| **Coding Interviews** | Iterative ✅           |
+
+---
+
+## 🧾 Final Verdict:
+
+| Factor              | Winner                  |
+| ------------------- | ----------------------- |
+| Time Complexity     | ✅ Tie (Same)            |
+| Space Efficiency    | ✅ Iterative             |
+| Simplicity in logic | ❌ Recursive (but risky) |
+| Industry/Exam use   | ✅ Iterative             |
+
+---
+
+### ✅ So, **Iterative Binary Search is better overall** for DSA practice, exams like **TCS NQT/DCA**, and coding interviews.
+
+

@@ -1,6 +1,6 @@
 package com.akashdipmahapatra.DSA;
 
-public class A_Search {
+public class A01_Search {
 
 public static void main(String[] args){
 
