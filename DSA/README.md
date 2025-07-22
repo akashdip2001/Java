@@ -1,18 +1,17 @@
+<img src="../img/IDEA%20(1).png">
+<img src="../img/IDEA%20(2).png">
+
+
+# Linear Vs Binary - 🔍 Search
+
+```java
 package com.akashdipmahapatra.DSA;
 
 public class A_Search {
 
 public static void main(String[] args){
-
-//    int arr[] = new int[10000];
-//    for(int i=0;i< arr.length;i++){
-//        arr[i]=i+1; // Fills 1 to 100
-//    }
-//
-//    int target = 900;
-
     int arr[] = {5, 7, 9, 11, 13};
-    int target = 9;
+    int target = 11;
 
 // Method
     int result_1 = linearSearch(arr, target);
@@ -25,9 +24,8 @@ public static void main(String[] args){
         System.out.println("Element not found");
     }
 }
-
-
-
+```
+```java
 public static int linearSearch(int[] arr, int target){
     int steps = 0; // To count the Steps (Optional)
 
@@ -40,10 +38,8 @@ public static int linearSearch(int[] arr, int target){
         }
     return -1;
 }
-
-
-
-
+```
+```java
 public static int BinarySearch(int[] arr, int target){
 // 5, 7, 9, 11, 13
 
@@ -67,7 +63,11 @@ public static int BinarySearch(int[] arr, int target){
     System.out.println("Steps taken is Binary Search: " + steps); // To cover all conditions.
     return -1;
 }
+```
 
+## ❌ For loop not allow for "Divide-and-conquer" like Binary Search, Quick Sort, Marge Sort etc.
+
+```java
 // For loop not allow for "Divide-and-conquer" like Binary Search, Quick Sort, Marge Sort etc.
 
 //    int left = 0;
@@ -88,4 +88,12 @@ public static int BinarySearch(int[] arr, int target){
 //}
 
 }
+```
 
+## Linear Vs Binary - 🔍 Search
+
+<img src="../img/JAVA%20Search%20(1).png">
+<img src="../img/JAVA%20Search%20(2).png">
+<img src="../img/JAVA%20Search%20(3).png">
+<img src="../img/JAVA%20Search%20(4).png">
+<img src="../img/JAVA%20Search%20(5).png">
