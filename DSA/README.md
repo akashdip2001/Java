@@ -226,3 +226,8 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 ```
 
 - Selection Short
+
+<img src="../img/Selection%20Short.png">
+
+- Insertion Sort
+> It's actually not `Swapping` but actully `Shifting`. completely take out all values and put into the array again in right order.
