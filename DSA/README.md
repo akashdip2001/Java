@@ -214,3 +214,15 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 
 # Sorting 🔁
 
+- Bubble Short -- O(n²) --> [Code](B01_Bubble_Sort.java)
+
+```go
+//After Shorting: 8 2 6 7 1
+//                2 6 7 1 8
+//                2 6 1 7 8
+//                2 1 6 7 8
+//                1 2 6 7 8 --> extra check --> So we need Selection Short
+//                1 2 6 7 8 --> "
+```
+
+- Selection Short
