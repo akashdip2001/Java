@@ -1,6 +1,7 @@
 <img src="../img/IDEA%20(1).png">
 <img src="../img/IDEA%20(2).png">
 
+---
 
 # Linear Vs Binary - 🔍 Search
 
