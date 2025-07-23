@@ -5,7 +5,6 @@
 
 <img src="../img/BigO.jpg">
 
-Hi 
 ---
 
 # Linear Vs Binary - 🔍 Search - [Code](A01_Search.java)
