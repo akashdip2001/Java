@@ -4,15 +4,15 @@ public class A01_Search {
 
 public static void main(String[] args){
 
-//    int arr[] = new int[10000];
+//    int arr[] = new int[100000];
 //    for(int i=0;i< arr.length;i++){
 //        arr[i]=i+1; // Fills 1 to 100
 //    }
-//
-//    int target = 900;
+//+
+//    int target = 90000;
 
     int arr[] = {5, 7, 9, 11, 13};
-    int target = 9;
+    int target = 7;
 
 // Method
     int result_1 = linearSearch(arr, target);
