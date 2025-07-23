@@ -19,7 +19,7 @@ public static void main(String[] args){
     int result_2 = BinarySearch(arr, target);
 
 //    output
-    if(result_1 != -1) {
+    if(result_2 != -1) {
         System.out.println("Element found at Index: " + result_2);
     }else{
         System.out.println("Element not found");
@@ -51,7 +51,7 @@ public static int BinarySearch(int[] arr, int target){
     int left = 0;
     int right = arr.length-1;
 
-    while(left <= right){
+    while(left <= right){ //Assume the array already Shorted
         steps++;
         int mid = (left + right)/2;
 

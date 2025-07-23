@@ -44,7 +44,7 @@ public class B04_Quick_Short {
 
     public static void main(String[] args){
 
-        int arr[] = {2, 5, 6, 8, 7, 9, 4, 15, 10};
+        int arr[] = { 15, 7, 9, 10, 2, 5, 6, 8,  4};
         int size = arr.length;
 
         System.out.println("After Short: ");

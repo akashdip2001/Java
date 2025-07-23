@@ -1,5 +1,5 @@
-<img src="../img/IDEA%20(1).png">
-<img src="../img/IDEA%20(2).png">
+[<img src="../img/IDEA%20(1).png">](https://youtube.com/playlist?list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0&si=qNmC7PQ12HdXgpx-)
+[<img src="../img/IDEA%20(2).png">](https://youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&si=SKzcEc7gIRpqCy8u)
 
 </br>
 
@@ -230,4 +230,6 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 <img src="../img/Selection%20Short.png">
 
 - Insertion Sort
-> It's actually not `Swapping` but actully `Shifting`. completely take out all values and put into the array again in right order.
+> It's actually not `Swapping` but actully `Shifting`. completely take out all values and put into the array again in right order. </br></br>
+> Visualizer websites [`link1` with problems](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/), [`Link2`](https://yongdanielliang.github.io/animation/web/InsertionSortNew.html)
+
