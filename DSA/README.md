@@ -238,4 +238,4 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 
 # Linked List
 
-<img src="../img/LinkedList.jpg">
+<img src="../img/LinkedList.png">
