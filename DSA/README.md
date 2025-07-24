@@ -233,3 +233,9 @@ Recursive Binary Search uses extra memory for **function call stack** (because e
 > It's actually not `Swapping` but actully `Shifting`. completely take out all values and put into the array again in right order. </br></br>
 > Visualizer websites [`link1` with problems](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/), [`Link2`](https://yongdanielliang.github.io/animation/web/InsertionSortNew.html)
 
+---
+<img src="../img/colour_line.png">
+
+# Linked List
+
+<img src="../img/LinkedList.jpg">
