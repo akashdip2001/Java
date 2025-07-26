@@ -87,6 +87,9 @@ Reserved Words (53)
 
 (50 Keywords + 3 Reserved Literals)
 
+<details>
+  <summary style="opacity: 0.85;"><b>Tree structure</b></summary><br>
+
 ```java
 Reserved Words (53)
 │
@@ -189,4 +192,23 @@ Reserved Words (53)
 * All others → From **Java 1.0**
 
 ---
+
+</details>
+
+| **Data Types (8)** | **Flow Control (11)** | **Modifiers (11)**  | **Exception Handling (6)** | **Class Related (6)** | **Object Related (4)** | **Return Type** | **Unused (2)** |
+| ------------------ | --------------------- | ------------------- | -------------------------- | --------------------- | ---------------------- | --------------- | -------------- |
+| byte               | if                    | public              | try                        | class                 | new                    | void            | goto           |
+| short              | else                  | private             | catch                      | interface             | instanceof             |                 | const          |
+| int                | switch                | protected           | finally                    | extends               | super                  |                 |                |
+| long               | case                  | static              | throw                      | implements            | this                   |                 |                |
+| float              | default               | final               | throws                     | package               |                        |                 |                |
+| double             | while                 | abstract            | assert (Java 1.4)          | import                |                        |                 |                |
+| boolean            | do                    | synchronized        |                            |                       |                        |                 |                |
+| char               | for                   | native              |                            |                       |                        |                 |                |
+|                    | break                 | strictfp (Java 1.2) |                            |                       |                        |                 |                |
+|                    | continue              | transient           |                            |                       |                        |                 |                |
+|                    | return                | volatile            |                            |                       |                        |                 |                |
+
+---
+
 
