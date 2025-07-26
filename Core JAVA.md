@@ -156,9 +156,12 @@ Reserved Words (53)
 │   ├── Return Type (1)
 │   │    └── void
 │   │
-│   └── Unused Keywords (2)
-│        ├── goto
-│        └── const
+│   ├── Unused Keywords (2)
+│   │    ├── goto
+│   │    └── const
+│   │
+│   └── Enum Type (1)
+│        └── enum       (added in Java 1.5)
 │
 └── Reserved Literals (3)
      ├── true
@@ -185,29 +188,30 @@ Reserved Words (53)
 
 ---
 
-### **Special Version Info**
-
-* `strictfp` → Added in **Java 1.2**
-* `assert` → Added in **Java 1.4**
-* All others → From **Java 1.0**
-
----
-
 </details>
 
-| **Data Types (8)** | **Flow Control (11)** | **Modifiers (11)**  | **Exception Handling (6)** | **Class Related (6)** | **Object Related (4)** | **Return Type** | **Unused (2)** |
-| ------------------ | --------------------- | ------------------- | -------------------------- | --------------------- | ---------------------- | --------------- | -------------- |
-| byte               | if                    | public              | try                        | class                 | new                    | void            | goto           |
-| short              | else                  | private             | catch                      | interface             | instanceof             |                 | const          |
-| int                | switch                | protected           | finally                    | extends               | super                  |                 |                |
-| long               | case                  | static              | throw                      | implements            | this                   |                 |                |
-| float              | default               | final               | throws                     | package               |                        |                 |                |
-| double             | while                 | abstract            | assert (Java 1.4)          | import                |                        |                 |                |
-| boolean            | do                    | synchronized        |                            |                       |                        |                 |                |
-| char               | for                   | native              |                            |                       |                        |                 |                |
-|                    | break                 | strictfp (Java 1.2) |                            |                       |                        |                 |                |
-|                    | continue              | transient           |                            |                       |                        |                 |                |
-|                    | return                | volatile            |                            |                       |                        |                 |                |
+| Data Types (8) | Flow Control (11) | Modifiers (11) | Exception Handling (6) | Class-Related (6) | Object Keywords (4) | Return (1) | Unused (2) | Literals (3) | Added Later (1) |
+| -------------- |-------------------| -------------- | ---------------------- | ----------------- | ------------------- | ---------- | ---------- | ------------ | --------------- |
+| byte           | if                | public         | try                    | class             | new                 | void       | goto       | true         | enum (1.5)      |
+| short          | else              | private        | catch                  | interface         | instanceof          |            | const      | false        |                 |
+| int            | switch            | protected      | finally                | extends           | super               |            |            | null         |                 |
+| long           | case              | static         | throw                  | implements        | this                |            |            |              |                 |
+| float          | default           | final          | throws                 | package           |                     |            |            |              |                 |
+| double         | while             | abstract       | assert (1.4)           | import            |                     |            |            |              |                 |
+| boolean        | do                | synchronized   |                        |                   |                     |            |            |              |                 |
+| char           | for               | native         |                        |                   |                     |            |            |              |                 |
+|                | break             | strictfp (1.2) |                        |                   |                     |            |            |              |                 |
+|                | continue          | transient      |                        |                   |                     |            |            |              |                 |
+|                | return            | volatile       |                        |                   |                     |            |            |              |                 |
+
+🟢 Notes:
+
+* Keywords with version info:
+
+  * assert → added in Java 1.4
+  * strictfp → added in Java 1.2
+  * enum → added in Java 1.5 (Java 5)
+* true, false, null → treated as literals (not technically keywords but reserved)
 
 ---
 
