@@ -912,3 +912,23 @@ Example:
 | Size | 4 bytes | 8 bytes |
 | Range | -1.7E38 to 1.7E38 | -1.7E308 to 1.7E308
 
+---
+
+
+# 🎯 **boolean**
+
+**Feature** | **Value**
+---|---
+**Size** | 1 bit (although JVM implementations often use 1 byte for internal representation)
+**Value** | `true` or `false`
+
+🔸 **Common Compile-Time Errors with boolean**
+
+**Code** | **Result** | **Compiler Message (error)**
+---|---|---
+`boolean b = true;` | ✅ Valid | —
+`boolean b = 0;` | ❌ Invalid | Incompatible types, found: int, required: boolean
+`boolean b = True;` | ❌ Invalid | Cannot find symbol, symbol: variable True, location: class Test
+`boolean b = "true";` | ❌ Invalid | Incompatible types, found: java.lang.String, required: boolean
+
+---
