@@ -870,3 +870,45 @@ Here’s a simple representation you can include:
 
 ---
 
+---
+
+# 🎯 long
+
+| Feature       | Value                    |
+|---------------|--------------------------|
+| Size          | 8 bytes (64 bits)        |
+|               | (`-2⁶³`) to (`2⁶³ - 1`)  |
+
+## The all Data Types in above (byte, short, int, long) represent only integral values, not decimals.
+
+---
+
+> When working with integer values, we use `byte` for the shortest range, `short` for a larger range than `byte`, `int` for a widely used default range, and `long` for very large values.
+
+**For decimal values, we use `float` for single-precision and `double` for double-precision.**
+
+```
+                      Floating-Point Data Types
+                                 |
+                                 |
+       ---------------------------------------------------
+       |                                                 |
+   🎯 float                                          🎯 double
+       |                                                 |
+       |                                                 |
+       |- 5 to 6 decimal places of precision             |- 14 to 15 decimal places of precision
+       |- Single precision                               |- Double precision
+       |- Size: 4 bytes                                  |- Size: 8 bytes
+       |- Range: -1.7E38 to 1.7E38                       |- Range: -1.7E308 to 1.7E308
+```
+
+Example:
+10/3 = 3.333333333333333... (5 to 15 digits)
+
+| Feature | float | double |
+|---|---|---|
+| Precision (decimal places) | 5 to 6 | 14 to 15 |
+| Type | Single precision | Double precision |
+| Size | 4 bytes | 8 bytes |
+| Range | -1.7E38 to 1.7E38 | -1.7E308 to 1.7E308
+
