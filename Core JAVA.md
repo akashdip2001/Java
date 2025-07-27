@@ -912,3 +912,92 @@ Example:
 | Size | 4 bytes | 8 bytes |
 | Range | -1.7E38 to 1.7E38 | -1.7E308 to 1.7E308
 
+---
+
+<img src="img/JVM%2001.jpg">
+
+In C/C++, this two are allow because of.
+
+- `int` values can implicitly convert to `boolean` contexts (0 is false, non-zero is true). This allows `if(x)` (where `x` is an integer) and 
+- `while(1)` (an infinite loop) to compile.
+
+Java's "powerful compiler" enforces **stronger type checking**. It does **not** allow implicit conversions from `int` to `boolean`. The `if` and `while` conditions **must** explicitly evaluate to a `boolean` type.
+
+---
+
+# char = 1 byte (in C/C++) 🆚 char = 2 byte (in JAVA) ?
+
+> Java's `char` is 2 bytes because it uses **Unicode (specifically UTF-16)** to represent a vast range of characters from almost all writing systems worldwide. C and C++ typically use 1-byte `char` which is sufficient for **ASCII** (or extended ASCII), primarily designed for English and Western European languages (256 characters max). Java's design prioritizes global character support from its inception.
+
+---
+
+<img src="img/integral%20data%20types.JPG">
+
+Specify literal values for integral data types (byte, short, int, long) in Java:
+
+| Basis/Form          | Description                                    | Digits/Characters Used      | Example (int) | Valid Prefix |
+| :------------------ | :--------------------------------------------- | :-------------------------- | :------------ | :----------- |
+| **Decimal Form** | Base-10 representation                         | 0-9                         | `int x = 10;`   | None         |
+| **Octal Form** | Base-8 representation                          | 0-7                         | `int x = 010;`  | `0`          |
+| **Hexadecimal Form**| Base-16 representation                         | 0-9 and a-f (or A-F)        | `int x = 0x10;` | `0x` or `0X` |
+| **Binary Form** | Base-2 representation (Java 7+ feature)      | 0-1                         | `int x = 0b10;` | `0b` or `0B` |
+
+> While Java is generally case-sensitive, for hexadecimal literals (e.g., 0x or 0X followed by digits), the letters 'A' through 'F' (representing values 10-15) are case-insensitive. </br>
+> This means you can use either uppercase or lowercase letters for the hexadecimal digits A through F. Both 0xDEADBEEF and 0xdeadbeef (or even mixed case like 0xDeAdBeEf) are valid and represent the same integer value.
+
+---
+
+## Literal
+
+<img src="img/literal.JPG">
+
+```
++-----------+   +---------+   +-----------------------+   +---------------------+
+| data type |   | keyword |   | name of variable /    |   | constant value /    |
+|           |<--|         |<--| identifier            |<--| literal             |
++-----------+   +---------+   +-----------------------+   +---------------------+
+      |               |                   |                           |
+      |               |                   |                           |
+      v               v                   v                           v
+     int             x                   =                           10 ;
+```
+
+## This is the only possible way to specify lateral values for integral data types.
+
+<img src="img/specify%20lateral%20values.JPG">
+
+Here's a table representing valid and invalid syntax for integral literals, along with common errors,
+
+| Syntax                 | Validity | Error (if invalid)                               | Explanation                                                      |
+| :--------------------- | :------- | :----------------------------------------------- | :--------------------------------------------------------------- |
+| `int x = 10;`          | ✅ Valid   | —                                                | Standard decimal literal.                                        |
+| `int x = 0786;`        | ❌ Invalid | `integer number too large`                       | Octal literals (prefixed with `0`) can only contain digits 0-7. `8` and `6` are invalid in octal. |
+| `int x = 0777;`        | ✅ Valid   | —                                                | Valid octal literal.                                             |
+| `int x = 0xFace;`      | ✅ Valid   | —                                                | Valid hexadecimal literal (case-insensitive for a-f).            |
+| `int x = 0XBeef;`      | ✅ Valid   | —                                                | Valid hexadecimal literal.                                             |
+| `int x = 0XBeer;`      | ❌ Invalid | `';' expected` or `illegal character: 'r'`        | `r` is not a valid hexadecimal digit (0-9, a-f).                 |
+| `int x = 2147483647;`  | ✅ Valid   | —                                                | Max value for `int`.                                             |
+| `int x = 2147483648;`  | ❌ Invalid | `integer number too large`                       | Exceeds the max value for `int`.                                 |
+| `int x = 2147483648l;` | ❌ Invalid | `possible loss of precision, found: long, required: int` | `l` makes it a `long` literal, which cannot be implicitly assigned to an `int` if it's too large for `int`. |
+| `int x = true;`        | ❌ Invalid | `incompatible types: found: boolean, required: int` | Boolean cannot be implicitly converted to int.                   |
+| `boolean b = true;`    | ✅ Valid   | —                                                | Valid boolean literal.                                           |
+| `boolean b = 0;`       | ❌ Invalid | `incompatible types: found: int, required: boolean` | Integer cannot be implicitly converted to boolean.                 |
+| `boolean b = True;`    | ❌ Invalid | `cannot find symbol, symbol: variable True`      | `True` (with uppercase 'T') is not a keyword; boolean literals are `true` or `false` (lowercase). |
+| `boolean b = "true";`  | ❌ Invalid | `incompatible types: found: java.lang.String, required: boolean` | String literal cannot be assigned to a boolean.                  |
+| `if (2)`               | ❌ Invalid | `incompatible types: found: int, required: boolean` | `if` condition requires a boolean expression.                    |
+| `while (1)`            | ❌ Invalid | `incompatible types: found: int, required: boolean` | `while` condition requires a boolean expression.                 |
+
+---
+
+<img src="img/JVM%2002.JPG">
+
+When you write integral literal values in your Java code (e.g., `10`, `010`, `0x10`, `0b10`), the **Java compiler and eventually the JVM (Java Virtual Machine) always convert these into their standard binary representation (which corresponds to their decimal value)** for internal storage and processing.
+
+For instance:
+* `int x = 10;` (Decimal 10)
+* `int y = 010;` (Octal 10, which is Decimal 8)
+* `int z = 0x10;` (Hexadecimal 10, which is Decimal 16)
+* `int a = 0b1010;` (Binary 1010, which is Decimal 10)
+
+---
+
