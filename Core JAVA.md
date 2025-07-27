@@ -685,7 +685,7 @@ Java Primitive Data Types (8)
 
 ### 🔹 Signed Data Types in Java: 
 
-# BYTE (8-bit)
+# 🎯 BYTE (8-bit)
 
 > A signed data type can represent both negative and positive numbers. It uses the Most Significant Bit (MSB) as a "sign bit":
 
@@ -755,6 +755,118 @@ byte range = -128 to +127
 | `byte b = 10.5;`    | ❌ Invalid | Possible lossy conversion from double to byte           |
 | `byte b = true;`    | ❌ Invalid | Incompatible types: boolean cannot be converted to byte |
 | `byte b = "durga";` | ❌ Invalid | Incompatible types: String cannot be converted to byte  |
+
+---
+
+Here’s everything you need to know about the short data type in Java (as shown in the image):
+
+---
+
+# 🎯 short
+
+| Feature       | Value                                                          |
+| ------------- | -------------------------------------------------------------- |
+| Size          | 2 bytes (16 bits)                                              |
+| Min value     | -32,768 (`-2¹⁵`)                                               |
+| Max value     | 32,767 (`2¹⁵ - 1`)                                             |
+| Default value | `0`                                                            |
+| Wrapper class | `Short`                                                        |
+| Use case      | Memory-efficient integer storage in arrays or embedded systems |
+
+---
+
+### 🔸 Common Compile-Time Errors with `short`
+
+| Code Example       | Error Type | Error Description (Full Form)                                          |
+| ------------------ | ---------- | ---------------------------------------------------------------------- |
+| `short s = 32768;` | CE: PLP    | CE = Compile Error, PLP = Possible Loss of Precision (value too large) |
+| `short s = 10.5;`  | CE: PLP    | Found: double → Required: short (cannot assign fractional value)       |
+| `short s = true;`  | CE: IT     | IT = Incompatible Types (boolean cannot be assigned to short)          |
+
+> 🧠 Java is strictly typed — it will not perform automatic narrowing conversions (like from int or double to short) unless explicitly casted.
+
+<details>
+  <summary style="opacity: 0.85;"><b>Histry of `short`</b></summary><br>
+
+---
+
+## 📌 Understanding short Data Type in Java – Then vs Now
+
+🧠 In the early days of Java (circa 1995), most machines used 16-bit microprocessors (like Intel 8085). Because of that, the short data type, which uses exactly 16 bits (2 bytes), was considered memory-efficient and aligned well with hardware processing power.
+
+But today, with modern 64-bit processors and large memory systems, the short data type is rarely used. Programmers prefer int or long for better compatibility and performance.
+
+---
+
+### 📘 Why was short used in early Java?
+
+* 16-bit CPUs (e.g., Intel 8085, 8086) were dominant.
+* Data Bus = 16 bits ⇒ One instruction could read/write a short (2 bytes) efficiently.
+* Memory and performance optimization was critical.
+
+---
+
+### 🧮 short Memory Diagram (Inspired by DURGASOFT)
+
+Here’s a simple representation you can include:
+
+```
+╭──────────────────────────── Java 1995 Era ─────────────────────────────╮
+│                                                                        │
+│        short x = 100;             →          [ 16 bits (2 bytes) ]    │
+│          ^                        ↘                                    │
+│          |                         ↘ Efficient access on 16-bit CPU   │
+│     Reference in Stack              ↳ Memory block (2 bytes wide)      │
+│                                                                        │
+╰────────────────────────────────────────────────────────────────────────╯
+```
+
+* short is stored in 2 bytes (16 bits)
+* Stack holds reference → Memory block holds value
+* Ideal for low-memory embedded systems and 16-bit architecture
+
+---
+
+### 🚫 Why short is rarely used now?
+
+| Then (1990s)                         | Now (Modern Java)                     |
+| ------------------------------------ | ------------------------------------- |
+| 16-bit processors (Intel 8085, etc.) | 64-bit processors everywhere          |
+| Memory was expensive                 | Memory is cheap, performance is king  |
+| short aligned with system word       | int is faster due to processor design |
+| Used to save memory                  | Overhead of short > savings           |
+
+---
+
+### ✅ Where short Might Still Be Used Today
+
+* Embedded systems / microcontrollers
+* Large arrays where memory optimization is needed (e.g., image buffers)
+* Data serialization formats where you need to control exact byte size
+
+</details>
+
+---
+
+# 🎯 int
+
+| Feature       | Value                                                       |
+|---------------|-------------------------------------------------------------|
+| Size          | 4 bytes (32 bits)                                           |
+| value         | -2147483648 to 2147483647                                   |
+|               | (`-2³¹`) to (`2³¹ - 1`)                                     |
+
+---
+
+### 🔸 Common Compile-Time Errors with `int`
+
+
+| Code                   | Result    | Compiler Message (error)                                     |
+|------------------------| --------- |--------------------------------------------------------------|
+| `int x = 2147483647;`  | ✅ Valid   | —                                                            |
+| `int x = 2147483648;`  | ❌ Invalid | integer number too large                                     |
+| `int x = 2147483648l;` | ❌ Invalid | PLP - Possible Loss of Precision, found: long, required: int |
+| `int x = true;`        | ❌ Invalid | Incompatible types, found: boolean, requined: int            |
 
 ---
 
