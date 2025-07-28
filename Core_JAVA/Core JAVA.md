@@ -584,7 +584,7 @@ Yes — You should use built-in collections from `java.util` because:
 
 ---
 
-<img src="img/line.gif">
+<img src="../img/line.gif">
 
 # OOPS
 
@@ -658,7 +658,7 @@ Integer y = new Integer(5);  // Object (wrapper class)
 
 ---
 
-<img src="img/line.gif">
+<img src="../img/line.gif">
 
 ## Primitive Data Types (8)
 
@@ -966,7 +966,7 @@ So, the "incompatible types" error you're seeing in the Table for `float f = 123
 ---
 ---
 
-<img src="img/JVM%2001.jpg">
+<img src="../img/JVM%2001.jpg">
 
 In C/C++, this two are allow because of.
 
@@ -983,7 +983,7 @@ Java's "powerful compiler" enforces **stronger type checking**. It does **not** 
 
 ---
 
-<img src="img/integral%20data%20types.JPG">
+<img src="../img/integral%20data%20types.JPG">
 
 Specify literal values for integral data types (byte, short, int, long) in Java:
 
@@ -1001,7 +1001,7 @@ Specify literal values for integral data types (byte, short, int, long) in Java:
 
 ## Literal
 
-<img src="img/literal.JPG">
+<img src="../img/literal.JPG">
 
 ```
 +-----------+   +---------+   +-----------------------+   +---------------------+
@@ -1016,7 +1016,7 @@ Specify literal values for integral data types (byte, short, int, long) in Java:
 
 ## This is the only possible way to specify lateral values for integral data types.
 
-<img src="img/specify%20lateral%20values.JPG">
+<img src="../img/specify%20lateral%20values.JPG">
 
 Here's a table representing valid and invalid syntax for integral literals, along with common errors,
 
@@ -1041,7 +1041,7 @@ Here's a table representing valid and invalid syntax for integral literals, alon
 
 ---
 
-<img src="img/JVM%2002.JPG">
+<img src="../img/JVM%2002.JPG">
 
 When you write integral literal values in your Java code (e.g., `10`, `010`, `0x10`, `0b10`), the **Java compiler and eventually the JVM (Java Virtual Machine) always convert these into their standard binary representation (which corresponds to their decimal value)** for internal storage and processing.
 
