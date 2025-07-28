@@ -879,6 +879,19 @@ Here’s a simple representation you can include:
 | Size          | 8 bytes (64 bits)        |
 |               | (`-2⁶³`) to (`2⁶³ - 1`)  |
 
+
+| Syntax                 | Validity | Compiler Message (error)                                  | Explanation                                                                                                                                                                                                                                                                                                                                                                            |
+| :--------------------- | :------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `int x = 10;`          | ✅ Valid   | —                                                         | A standard decimal `int` literal. `int` is 4 bytes.                                                                                                                                                                                                                                                                                                                                    |
+| `long l = 10L;`        | ✅ Valid   | —                                                         | A `long` literal explicitly suffixed with `L` (or `l`). This is the correct way to define a `long` value. `long` is 8 bytes.                                                                                                                                                                                                                                                         |
+| `int x = 10L;`         | ❌ Invalid | `possible loss of precision, found: long, required: int` | You are trying to assign a `long` literal (which is 8 bytes) to an `int` variable (which is 4 bytes). Even though the value 10 fits within an `int`, Java's strict type checking prevents implicit widening conversions that might lead to data loss for larger `long` values. An explicit cast `(int)10L` would be required if the value definitely fits within `int`'s range. |
+| `long l = 10;`         | ✅ Valid   | —                                                         | Here, an `int` literal (10) is being assigned to a `long` variable. This is a valid **widening primitive conversion** because an `int` (4 bytes) can fit entirely within a `long` (8 bytes) without any loss of data or precision. Java performs this conversion implicitly.                                                                                                     |
+
+**Key Takeaway:**
+Java enforces strict type compatibility. You can generally assign smaller integral types to larger ones (`int` to `long`) implicitly (widening conversion). However, assigning a larger type to a smaller type (`long` to `int`) is typically not allowed implicitly, even if the value fits, because it could lead to potential data loss (narrowing conversion). For such cases, an explicit cast is required, acknowledging the potential for data loss.
+
+---
+
 ## The all Data Types in above (byte, short, int, long) represent only integral values, not decimals.
 
 ---
@@ -914,6 +927,25 @@ Example:
 
 ---
 
+# 🎯 **float**
+
+* In Java, by default, every **decimal literal (like `123.456`) is treated as a `double`**.
+* `double` requires 8 bytes (64 bits).
+* `float` requires 4 bytes (32 bits).
+
+
+| Syntax                 | Validity | Compiler Message (error)                                  | Explanation                                                                                                                                                                                                                                                                                                                                                                                    |
+| :--------------------- | :------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `float f = 123.456;`   | ❌ Invalid | `possible loss of precision, found: double, required: float` | By default, decimal literals like `123.456` are `double` (8 bytes). You cannot implicitly assign an 8-byte `double` to a 4-byte `float` because it might lead to a loss of precision. An explicit cast `(float)123.456` or `123.456f` is required.                                                                                                                                          |
+| `float f = 123.456F;`  | ✅ Valid   | —                                                         | The `F` (or `f`) suffix explicitly indicates that `123.456F` is a `float` literal (4 bytes). This is the correct way to assign a decimal literal directly to a `float` variable without an explicit cast.                                                                                                                                                                                     |
+| `double d = 123.456;`  | ✅ Valid   | —                                                         | A standard decimal literal `123.456` is treated as a `double` by default. Assigning a `double` literal to a `double` variable is perfectly valid.                                                                                                                                                                                                                                      |
+| `double d = 123.456f;` | ✅ Valid   | —                                                         | You are assigning a `float` literal (explicitly marked with `f`) to a `double` variable. This is a **widening primitive conversion** (4 bytes to 8 bytes) and is implicitly allowed by Java, as there is no loss of precision.                                                                                                                                                                  |
+| `double d = 123;`      | ✅ Valid   | —                                                         | An `int` literal (`123`) can be assigned to a `double` variable. This is another example of a widening primitive conversion (integer to floating-point) where no data loss occurs.                                                                                                                                                                                                     |
+
+
+So, the "incompatible types" error you're seeing in the Table for `float f = 123.456;` is because you're trying to put an 8-byte `double` literal into a 4-byte `float` variable without an explicit cast. This is a potential **loss of precision (PLP)** error, as a `double` has more precision than a `float`.
+
+---
 
 # 🎯 **boolean**
 
