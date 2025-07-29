@@ -38,3 +38,16 @@
 <img width="1920" height="1080" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/4e13d7e0-a676-4767-b6d0-6d1e4d98f372" />
 <img width="1920" height="1080" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/7a247aa0-6221-462e-a774-03c6196a5c95" />
 <img width="1920" height="1080" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/82801e48-21e8-4a88-830e-6b8fa5cb9f79" />
+
+> Because `Array` s are [`Referance type`]() . so we use .toStrong `Class` otherWise we get a memory address.
+
+## call by Value Vs call by Referance
+
+<img width="1920" height="1080" alt="Screenshot (187)" src="https://github.com/user-attachments/assets/0f36a034-d6b8-4b57-a76e-4d20ff978607" />
+<img width="1920" height="1080" alt="Screenshot (188)" src="https://github.com/user-attachments/assets/565466a4-04d2-4ce6-bf6b-1c1c8f198d96" />
+<img width="1920" height="1080" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/2b9f9a0d-608e-4946-abff-1e625d00a62f" />
+<img width="1920" height="1080" alt="Screenshot (190)" src="https://github.com/user-attachments/assets/d3727145-d318-4817-9908-35c6d4ebf1c8" />
+<img width="1920" height="1080" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/16a98721-1858-4c53-b37e-a1a8aa57c071" />
+<img width="1920" height="1080" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/dc73da74-d375-4a8e-91d9-a3d1469275b8" />
+<img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/b809a675-0130-421d-82d6-4c2c11bcaa3a" />
+<img width="1920" height="1080" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/95634fae-6682-48a2-b302-0903e1886f58" />
