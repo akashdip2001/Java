@@ -51,3 +51,48 @@
 <img width="1920" height="1080" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/dc73da74-d375-4a8e-91d9-a3d1469275b8" />
 <img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/b809a675-0130-421d-82d6-4c2c11bcaa3a" />
 <img width="1920" height="1080" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/95634fae-6682-48a2-b302-0903e1886f58" />
+
+---
+
+## play with String
+
+<img width="1920" height="1080" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/3af4564c-e910-456b-843d-cca9c7b00260" />
+
+## Chalange 01
+
+<img width="1920" height="1080" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/c730c272-f9c6-431b-9cf8-d6160a5a117a" />
+<img width="1920" height="1080" alt="Screenshot (199)" src="https://github.com/user-attachments/assets/a0004827-51bf-487b-a225-d90d4a0cfd03" />
+
+| [files](https://github.com/akashdip2001/Java/tree/main/OOPS_Object_oriented_Concepts/A01_Linkedin_learning/Ex_Files_Learning_Java/Exercise%20Files/Chapter%2002/02_10/end/src) |
+| --- |
+
+```java
+public class Dog {
+
+    String name;
+    int age;
+    String[] fetchedItems = {"bone", "stick", "ball"};
+    private int fetchCounter = 0;
+
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public void bark() {
+        System.out.println("Bark!");
+    }
+
+    public int getDogYears() {
+        // Assume 1 dog year is 7 human years
+        return this.age * 7;
+    }
+
+    public void fetch() {
+        this.fetchCounter = (this.fetchCounter + 1) % 3;
+        String item = this.fetchedItems[this.fetchCounter];
+        System.out.println(name + " fetched a " + item + ".");
+    }
+
+}
+```
