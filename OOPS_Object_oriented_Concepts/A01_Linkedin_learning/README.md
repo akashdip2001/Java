@@ -126,3 +126,18 @@ public class Dog {
 
 <img width="1920" height="1080" alt="Screenshot (341)" src="https://github.com/user-attachments/assets/5f8c52be-6d97-4f54-8ec2-f14a0b8501c3" />
 <img width="1920" height="1080" alt="Screenshot (342)" src="https://github.com/user-attachments/assets/68b2ff48-5e28-4692-957a-55e79b32ac0c" />
+
+> Chapter 04 > 04_03 > begin
+
+<img width="1920" height="1080" alt="Screenshot (347)" src="https://github.com/user-attachments/assets/68f82fdf-b0a7-41c8-b356-3c211494ff0d" />
+
+---
+
+<img width="1920" height="1080" alt="Screenshot (348)" src="https://github.com/user-attachments/assets/835447b1-ac82-4b35-852b-b0bc0296d68b" />
+<img width="1920" height="1080" alt="Screenshot (349)" src="https://github.com/user-attachments/assets/f9f88490-5b95-4881-bf52-818fdf522349" />
+
+---
+
+<img width="1920" height="1080" alt="Screenshot (350)" src="https://github.com/user-attachments/assets/b67fa217-f0e9-4530-a4ed-bdd7c768f276" />
+<img width="1920" height="1080" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/66651e59-26c8-4b11-982f-a90921563a0d" />
+<img width="1920" height="1080" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/00bbf033-54f7-4ce8-9061-beefa1454bb6" />
