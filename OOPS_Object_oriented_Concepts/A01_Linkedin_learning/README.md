@@ -96,3 +96,14 @@ public class Dog {
 
 }
 ```
+
+---
+
+## controll the code flow with IF-else && Loops
+# 📖 Libraries
+
+<img width="1920" height="1080" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/de90fe3e-eb09-438f-af09-f10b38775519" />
+<img width="1920" height="1080" alt="Screenshot (326)" src="https://github.com/user-attachments/assets/41f361e9-87d4-4c2d-a18c-e38a92fdebb9" />
+<img width="1920" height="1080" alt="Screenshot (328)" src="https://github.com/user-attachments/assets/e42a192a-9fa0-472b-9001-6e39c77e9117" />
+<img width="1920" height="1080" alt="Screenshot (327)" src="https://github.com/user-attachments/assets/f6de860a-fc34-4719-beb6-728245730582" />
+
