@@ -141,3 +141,19 @@ public class Dog {
 <img width="1920" height="1080" alt="Screenshot (350)" src="https://github.com/user-attachments/assets/b67fa217-f0e9-4530-a4ed-bdd7c768f276" />
 <img width="1920" height="1080" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/66651e59-26c8-4b11-982f-a90921563a0d" />
 <img width="1920" height="1080" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/00bbf033-54f7-4ce8-9061-beefa1454bb6" />
+
+---
+
+# Quize
+
+<img width="1920" height="1080" alt="Screenshot (353)" src="https://github.com/user-attachments/assets/83d6d220-9597-476b-be5c-be2d879ce6fc" />
+<img width="1920" height="1080" alt="Screenshot (354)" src="https://github.com/user-attachments/assets/dab72d56-721d-442b-9347-908b36c27d86" />
+<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/36dc38b4-e152-4e3a-8805-111b1aac7586" />
+<img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/7a837178-9ae4-4065-afc9-db14f6da3d7a" />
+<img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/a577683b-99b3-4153-961a-50c334322499" />
+<img width="1920" height="1080" alt="Screenshot (358)" src="https://github.com/user-attachments/assets/45cd3549-e17d-4efd-8fd7-0771e15e7897" />
+<img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/b56f59d0-e5c7-4446-93ba-79970bf362ee" />
+<img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/839b4913-5892-48ed-b75f-fb21c16a8c94" />
+<img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/2a859264-e065-452b-869d-ec53f2377a9e" />
+<img width="1920" height="1080" alt="Screenshot (362)" src="https://github.com/user-attachments/assets/82fee274-ae5a-41d5-8004-aec185168e6d" />
+
