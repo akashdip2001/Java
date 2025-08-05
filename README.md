@@ -12,6 +12,11 @@
 </br>
 </br>
 
+![Java 2018_page-0001](https://github.com/user-attachments/assets/78a7cef2-7536-407f-b09b-f2051ebcbf2f)
+
+</br>
+</br>
+
 ```go
 1. `// [comment]`
 Single line comment.
