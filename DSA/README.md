@@ -1,3 +1,71 @@
+## 📌 Step 1: Basics Before Jumping to Problems
+
+### 1. Learn basics of time complexity (O(n), O(n²), etc.).
+### 2. Get comfortable with:
+
+   - Arrays → indexing, insertion, deletion, rotations, prefix/suffix sums.
+   - Strings → reversing, substring search, frequency counts, palindrome, anagrams.
+
+### 3. Use C++/Java/Python (whatever you are comfortable with). Most TCS people use Java or Python.
+
+---
+
+## 📌 Step 2: Where to Start Practicing (Free Platforms)
+
+### 1. GeeksforGeeks (GFG) DSA Sheets (Free)
+
+- [Love Babbar 450 DSA Sheet](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/?utm_source=chatgpt.com)
+        - Has a dedicated Arrays & Strings section.
+
+- [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/?utm_source=chatgpt.com)
+        - Covers Arrays, Strings, then moves to advanced topics.
+
+---
+
+### 2. LeetCode (Best for Arrays & Strings)
+
+- **LeetCode** [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/?utm_source=chatgpt.com) → many Arrays & Strings.
+- **LeetCode Explore** → [Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/?utm_source=chatgpt.com) → beginner-friendly track.
+
+---
+
+### 3. Free Video Resources
+
+- **Striver (Take U Forward) YouTube channel** → explains Arrays & Strings in detail with patterns.
+- **NeetCode (YouTube)** → has playlists on Arrays, Strings, Sliding Window, Two Pointers.
+
+---
+
+## 📌 Step 3: Your Roadmap for Arrays & Strings
+
+> Here’s a 2–month roadmap just for **Arrays + Strings**:
+
+### Month 1 (Arrays basics)
+
+- Day 1–5 → Array basics (rotation, reverse, prefix sum, min/max).
+- Day 6–15 → Two-pointer problems (pairs, triplets, subarray sums).
+- Day 16–30 → Sliding Window (max sum subarray, longest subarray, etc.).
+
+
+### Month 2 (Strings basics)
+
+- Day 1–5 → Basic string manipulation (reverse, palindrome, anagram).
+- Day 6–15 → Frequency maps, substrings, pattern matching.
+- Day 16–30 → Sliding window on strings (longest substring without repeating, anagrams, etc.).
+
+
+👉 Solve 1–2 problems daily → in 2 months you’ll be solid in Arrays & Strings.
+
+---
+
+📌 Step 4: After Arrays & Strings
+
+- Move to Hashing & Recursion.
+- Then Linked List, Stack, Queue.
+- Slowly → Trees, Graphs, DP.
+
+</br>
+
 [<img src="../img/IDEA%20(1).png">](https://youtube.com/playlist?list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0&si=qNmC7PQ12HdXgpx-)
 [<img src="../img/IDEA%20(2).png">](https://youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&si=SKzcEc7gIRpqCy8u)
 
