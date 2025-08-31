@@ -14,18 +14,18 @@
 
 ### 1. GeeksforGeeks (GFG) DSA Sheets (Free)
 
-- [Love Babbar 450 DSA Sheet](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/?utm_source=chatgpt.com)
+- [Love Babbar 450 DSA Sheet](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
         - Has a dedicated Arrays & Strings section.
 
-- [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/?utm_source=chatgpt.com)
+- [Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
         - Covers Arrays, Strings, then moves to advanced topics.
 
 ---
 
 ### 2. LeetCode (Best for Arrays & Strings)
 
-- **LeetCode** [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/?utm_source=chatgpt.com) → many Arrays & Strings.
-- **LeetCode Explore** → [Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/?utm_source=chatgpt.com) → beginner-friendly track.
+- **LeetCode** [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) → many Arrays & Strings.
+- **LeetCode Explore** → [Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/) → beginner-friendly track.
 
 ---
 
