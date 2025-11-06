@@ -4,6 +4,7 @@
   <img src="img/java-logo-big.png" width="100%" />
 </p>
 
+
 | IDE integrated development environment | java interpreter (JDK) | JDK Life-Time-Support (LTS) |
 | :---: | :---: | :---: |
 | | | |
